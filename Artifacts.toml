@@ -1,89 +1,89 @@
 [[Xorg_libXtst]]
-arch = "armv7l"
-git-tree-sha1 = "92e6c265321338f97a21004810f3050f1bb972e4"
-libc = "glibc"
+arch = "aarch64"
+git-tree-sha1 = "c1285d6f04e6f56aa6228fe02f0356b41c30eb40"
+libc = "musl"
 os = "linux"
 
     [[Xorg_libXtst.download]]
-    sha256 = "4abbc9b0d9bb01decb6a7a32c042fd52cdb781482c749b9ad34130b93778f027"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXtst_jll.jl/releases/download/Xorg_libXtst-v1.2.3+0/Xorg_libXtst.v1.2.3.arm-linux-gnueabihf.tar.gz"
+    sha256 = "eb40aa142378c8ebb30e32b1bdfa47ec25fb82d57605fa56279bd259434a2c85"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXtst_jll.jl/releases/download/Xorg_libXtst-v1.2.3+1/Xorg_libXtst.v1.2.3.aarch64-linux-musl.tar.gz"
 [[Xorg_libXtst]]
 arch = "aarch64"
-git-tree-sha1 = "5b5ae6c46829a4a29bacfda56df28e4ef8903845"
-libc = "musl"
-os = "linux"
-
-    [[Xorg_libXtst.download]]
-    sha256 = "7f3c22b0e4db1b1385ea999a91aeb679fc2ee1f9b98b7e525334e04f1d84472c"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXtst_jll.jl/releases/download/Xorg_libXtst-v1.2.3+0/Xorg_libXtst.v1.2.3.aarch64-linux-musl.tar.gz"
-[[Xorg_libXtst]]
-arch = "i686"
-git-tree-sha1 = "541ed0cdf3e6b10fb06b04f0768ff65b95f6c645"
-libc = "musl"
-os = "linux"
-
-    [[Xorg_libXtst.download]]
-    sha256 = "3cb76f90309ce8bb84fb99cd107e06f34388815c68877483ec0576e4172e4d4b"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXtst_jll.jl/releases/download/Xorg_libXtst-v1.2.3+0/Xorg_libXtst.v1.2.3.i686-linux-musl.tar.gz"
-[[Xorg_libXtst]]
-arch = "i686"
-git-tree-sha1 = "57f7fdc91ec7f4cd23eb74f39044ee0c8f259c28"
+git-tree-sha1 = "aa07641f9d12130e59b3468554c7487657dd2940"
 libc = "glibc"
 os = "linux"
 
     [[Xorg_libXtst.download]]
-    sha256 = "5f8ce444ca7c8fed0e673adca894550d858f195c5ec8cec97c0bdd53cea66797"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXtst_jll.jl/releases/download/Xorg_libXtst-v1.2.3+0/Xorg_libXtst.v1.2.3.i686-linux-gnu.tar.gz"
+    sha256 = "0851c59324e929e2db8c2b99a8bfe9eb6592b06f972ddaa760971aabec242ed4"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXtst_jll.jl/releases/download/Xorg_libXtst-v1.2.3+1/Xorg_libXtst.v1.2.3.aarch64-linux-gnu.tar.gz"
 [[Xorg_libXtst]]
 arch = "x86_64"
-git-tree-sha1 = "50a6cade48ab4e8d9232562ef279b27275a6095b"
+git-tree-sha1 = "d2ebc6afd42dfc7a8088b3b8ae80760372155d40"
+libc = "glibc"
+os = "linux"
+
+    [[Xorg_libXtst.download]]
+    sha256 = "5d0f7f89c724836e87acbec6777e45c632cf374ece3533b69346d31a33e55d40"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXtst_jll.jl/releases/download/Xorg_libXtst-v1.2.3+1/Xorg_libXtst.v1.2.3.x86_64-linux-gnu.tar.gz"
+[[Xorg_libXtst]]
+arch = "powerpc64le"
+git-tree-sha1 = "05158c419e57c20bb99a0f058bc8f37602dfe2cf"
+libc = "glibc"
+os = "linux"
+
+    [[Xorg_libXtst.download]]
+    sha256 = "ee40b270267d5b28c522138f50af67bc7cf4bea6987bae0e3c2db0cb2a2daa21"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXtst_jll.jl/releases/download/Xorg_libXtst-v1.2.3+1/Xorg_libXtst.v1.2.3.powerpc64le-linux-gnu.tar.gz"
+[[Xorg_libXtst]]
+arch = "x86_64"
+git-tree-sha1 = "9e86266fcd0f30210b545fc314164b244ffcd08b"
 os = "freebsd"
 
     [[Xorg_libXtst.download]]
-    sha256 = "aef4df8091aca63af5782b45f9bf63c50778e43a14e4941e30ce0ac912bf7a50"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXtst_jll.jl/releases/download/Xorg_libXtst-v1.2.3+0/Xorg_libXtst.v1.2.3.x86_64-unknown-freebsd11.1.tar.gz"
+    sha256 = "3c6e8c441f80b994fc11e0029380379ad9fc5bc3183f0a18829a0313839c7624"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXtst_jll.jl/releases/download/Xorg_libXtst-v1.2.3+1/Xorg_libXtst.v1.2.3.x86_64-unknown-freebsd11.1.tar.gz"
 [[Xorg_libXtst]]
-arch = "powerpc64le"
-git-tree-sha1 = "a6906dcdb8ce7d43c97d3d23271f6f69b452f2c2"
+arch = "i686"
+git-tree-sha1 = "b1a473f39bf8ccb9439d218e47eb05880cf26671"
 libc = "glibc"
 os = "linux"
 
     [[Xorg_libXtst.download]]
-    sha256 = "ec455517d82aaf9174412c22ccfa124293a32de4cc5e15c04fac837735a16e16"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXtst_jll.jl/releases/download/Xorg_libXtst-v1.2.3+0/Xorg_libXtst.v1.2.3.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "8a5759b75841ba86f7c8a7238a4184073f022f9fb587f89e3105837721988c44"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXtst_jll.jl/releases/download/Xorg_libXtst-v1.2.3+1/Xorg_libXtst.v1.2.3.i686-linux-gnu.tar.gz"
+[[Xorg_libXtst]]
+arch = "i686"
+git-tree-sha1 = "258b8fea6d5c99a4108da7450d29a2b368f5b3bc"
+libc = "musl"
+os = "linux"
+
+    [[Xorg_libXtst.download]]
+    sha256 = "1dae5f0604d6cbc1ba0b670bbd465d488fd20a6344513204612ec66f602894a4"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXtst_jll.jl/releases/download/Xorg_libXtst-v1.2.3+1/Xorg_libXtst.v1.2.3.i686-linux-musl.tar.gz"
 [[Xorg_libXtst]]
 arch = "armv7l"
-git-tree-sha1 = "69868dc402e7d9b93e6aa429354a0b188d7f9e8d"
-libc = "musl"
-os = "linux"
-
-    [[Xorg_libXtst.download]]
-    sha256 = "63c0fef047650823698055b005f52563c70ce4a4b90d67426e26d539aafd9f0e"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXtst_jll.jl/releases/download/Xorg_libXtst-v1.2.3+0/Xorg_libXtst.v1.2.3.arm-linux-musleabihf.tar.gz"
-[[Xorg_libXtst]]
-arch = "aarch64"
-git-tree-sha1 = "26ff18b29f5b06da5e661dc1b0ac82ec08b8d5da"
+git-tree-sha1 = "e59a0fbd7e911fd2845b45b5988b861880648a7f"
 libc = "glibc"
 os = "linux"
 
     [[Xorg_libXtst.download]]
-    sha256 = "1a42b29e9f108a03bd057019329e23e2123bcb0fcdac6e2f9c8af7084884cabc"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXtst_jll.jl/releases/download/Xorg_libXtst-v1.2.3+0/Xorg_libXtst.v1.2.3.aarch64-linux-gnu.tar.gz"
+    sha256 = "a4941b5407f3cb5d6274e33e3f33f677d84c10e8fece5b6f2fdea6291002078a"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXtst_jll.jl/releases/download/Xorg_libXtst-v1.2.3+1/Xorg_libXtst.v1.2.3.armv7l-linux-gnueabihf.tar.gz"
 [[Xorg_libXtst]]
 arch = "x86_64"
-git-tree-sha1 = "367e81cdc0f5a433591d8d4c05f8cf7c0141c1ff"
-libc = "glibc"
-os = "linux"
-
-    [[Xorg_libXtst.download]]
-    sha256 = "5403820f5bd7542b9a7ada535cafe4069872583fdbe3b81230eba4ec1669165d"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXtst_jll.jl/releases/download/Xorg_libXtst-v1.2.3+0/Xorg_libXtst.v1.2.3.x86_64-linux-gnu.tar.gz"
-[[Xorg_libXtst]]
-arch = "x86_64"
-git-tree-sha1 = "0176ac26e07f0677e3c6c9692f3eeb46efd1cda0"
+git-tree-sha1 = "a73e8e148f6410d946f7e5adcb87aaf8da8a0cd4"
 libc = "musl"
 os = "linux"
 
     [[Xorg_libXtst.download]]
-    sha256 = "5a96274749f458f42ec3077305e6fa3e885a71b45609c4667abe0d5fe0f74c49"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXtst_jll.jl/releases/download/Xorg_libXtst-v1.2.3+0/Xorg_libXtst.v1.2.3.x86_64-linux-musl.tar.gz"
+    sha256 = "e46a076ff865a6ebf8676ef1c251ff23fd5dd55b40281f5654cc9302ce0a4350"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXtst_jll.jl/releases/download/Xorg_libXtst-v1.2.3+1/Xorg_libXtst.v1.2.3.x86_64-linux-musl.tar.gz"
+[[Xorg_libXtst]]
+arch = "armv7l"
+git-tree-sha1 = "127c94547c84c574a9df93431adc44db3a6a567b"
+libc = "musl"
+os = "linux"
+
+    [[Xorg_libXtst.download]]
+    sha256 = "555dd4127eb3856038b8ac4e39a1cef5ff523e89adfed0d83279c47db9a22e17"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXtst_jll.jl/releases/download/Xorg_libXtst-v1.2.3+1/Xorg_libXtst.v1.2.3.armv7l-linux-musleabihf.tar.gz"
